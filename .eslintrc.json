@@ -9,6 +9,8 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "indent": ["error", 4],
     "rules": {
+        "linebreak-style":0
     }
 }
