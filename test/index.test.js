@@ -1,4 +1,3 @@
-// import dummy from '../src'
 const { dummy } = require('../src');
 
 describe('Dummy Test', () => {
