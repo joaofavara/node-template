@@ -1,0 +1,13 @@
+{
+    "project_name": "learning-cookiecutter",
+    "_copy_without_render": [
+        "*.yml"
+    ],
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Default description",
+    "github_org": "joaofavara",
+    "sonnarcloud_org": "joaofavara",
+    "sonnarcloud_token": "",
+    "version": "0.1.0",
+    "open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
+}
