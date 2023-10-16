@@ -16,6 +16,8 @@ git remote add origin git@github.com:joaofavara/learning-cookiecutter.git
 git push -u origin master
 
 gh secret set SONAR_TOKEN -b {{ cookiecutter.sonnarcloud_token }}
+gh secret set SNYK_TOKEN -b {{ cookiecutter.snyk_token }}
+
 
 curl --include \
      --request POST \
