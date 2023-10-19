@@ -5,7 +5,7 @@ echo "Starting the project creation"
 gh repo create {{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }} --public
 git init
 
-# nvm use
+npm ci
 
 sleep 60
 
