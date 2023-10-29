@@ -12,7 +12,7 @@ sleep 60
 git branch -M master
 git add .
 git commit -m "feat: start repository"
-git remote add origin git@github.com:joaofavara/learning-cookiecutter.git
+git remote add origin git@github.com:{{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }}.git
 git push -u origin master
 
 gh secret set SONAR_TOKEN -b {{ cookiecutter.sonnarcloud_token }}
