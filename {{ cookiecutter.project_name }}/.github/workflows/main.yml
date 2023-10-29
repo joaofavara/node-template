@@ -25,12 +25,12 @@ jobs:
             ${{ runner.os }}-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
+        name: Install dependencies
+        run: npm ci
+
+      - name: List the state of node modules
         continue-on-error: true
         run: npm list
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: EsLint
         run: npm run lint:check
