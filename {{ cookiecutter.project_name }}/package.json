@@ -1,5 +1,5 @@
 {
-    "name": "node-template",
+    "name": "{{ cookiecutter.project_slug }}",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -16,14 +16,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/joaofavara/node-template.git"
+        "url": "git+https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }}.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/joaofavara/node-template/issues"
+        "url": "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }}/issues"
     },
-    "homepage": "https://github.com/joaofavara/node-template#readme",
+    "homepage": "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }}#readme",
     "devDependencies": {
         "@commitlint/cli": "^17.7.1",
         "@commitlint/config-angular": "^17.7.0",
