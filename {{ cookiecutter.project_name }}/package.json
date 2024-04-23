@@ -25,16 +25,16 @@
     },
     "homepage": "https://github.com/{{ cookiecutter.github_org }}/{{ cookiecutter.project_slug }}#readme",
     "devDependencies": {
-        "@commitlint/cli": "^17.7.1",
-        "@commitlint/config-angular": "^17.7.0",
-        "@commitlint/config-conventional": "^17.7.0",
-        "@commitlint/prompt-cli": "^17.7.1",
-        "eslint": "^8.49.0",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-import": "^2.28.1",
-        "husky": "^8.0.3",
-        "jest": "^29.7.0",
-        "prettier": "^3.0.3"
+        "@commitlint/cli": "17.7.1",
+        "@commitlint/config-angular": "17.7.0",
+        "@commitlint/config-conventional": "17.7.0",
+        "@commitlint/prompt-cli": "17.7.1",
+        "eslint": "8.49.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-prettier": "9.0.0",
+        "eslint-plugin-import": "2.28.1",
+        "husky": "8.0.3",
+        "jest": "29.7.0",
+        "prettier": "3.0.3"
     }
 }
