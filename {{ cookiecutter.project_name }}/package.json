@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --coverage",
-        "test:coverage": "jest --coverage",
-        "test:watch": "jest --coverage --watchAll",
+        "test": "node --test ./test",
+        "test:coverage": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info ./test",
+        "test:watch": "node --test --watch ./test",
         "prettier:check": "prettier --check .",
         "prettier:write": "prettier --write .",
         "lint:check": "eslint .",
@@ -34,7 +34,6 @@
         "eslint-config-prettier": "9.0.0",
         "eslint-plugin-import": "2.28.1",
         "husky": "8.0.3",
-        "jest": "29.7.0",
         "prettier": "3.0.3"
     }
 }
